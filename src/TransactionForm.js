@@ -26,11 +26,11 @@ const TransactionForm = ({ type, onSubmit }) => {
     setAccountNumber("");
     setAmount("");
     // Navigate back to home page
-    navigate('/home/key');
+    navigate('/bankApp/home/key');
   };
   const handleCancel = () => {
     // Navigate back to home page
-    navigate('/home/key');
+    navigate('/bankApp/home/key');
   };
   return (
     <div className="h-over">

@@ -44,25 +44,25 @@ const App = () => {
               }
             />
             <Route
-              path="/hero"
+              path="/bankApp/hero"
               element={
                 <Hero/>
               }
             />
             <Route
-              path="/deposit"
+              path="/bankApp/deposit"
               element={
                 <TransactionForm type="deposit" onSubmit={handleTransaction} />
               }
             />
             <Route
-              path="/withdraw"
+              path="/bankApp/withdraw"
               element={
                 <TransactionForm type="withdraw" onSubmit={handleTransaction} />
               }
             />
             <Route
-              path="/login"
+              path="/bankApp/login"
               element={
                 // <login  accountNumber={accountNumber}
                 // balance={balance}
@@ -71,13 +71,13 @@ const App = () => {
               }
             />
             <Route
-              path="/home/key"
+              path="/bankApp/home/key"
               element={
                 <Home2/>
               }
             />
           <Route
-              path="/home/key/records"
+              path="/bankApp/home/key/records"
               element={
                 <Record
                 login  accountNumber={accountNumber}

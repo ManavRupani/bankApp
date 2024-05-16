@@ -13,10 +13,10 @@ const Navbar = ({ balance }) => {
           <h5 className="text-white">Balance: {balance}</h5>
         </div> */}
         <div className="navbar-nav ml-auto">
-          <Link to="/login" className=" ml-auto  mx-2 navTEXT">
+          <Link to="/bankApp/login" className=" ml-auto  mx-2 navTEXT">
           Login
           </Link>
-          <Link to="/login" className=" ml-auto  navTEXT">
+          <Link to="/bankApp/login" className=" ml-auto  navTEXT">
             Sign-Up
           </Link>
         </div>

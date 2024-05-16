@@ -4,7 +4,7 @@ const Login = () => {
     const navigate = useNavigate();
     const handleCancel = () => {
         // Navigate back to home page
-        navigate('/home/key');
+        navigate('/bankApp/home/key');
       };
   return (
     <div>
