@@ -11,13 +11,13 @@ const Home2 = () => {
         <div className="col-lg-6">
           <h1 className="display-5 fw-bold lh-1 mb-3">Welcome to Bank TD App</h1> 
           <div className="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-            <Link to="/deposit" className="btn btn-over btn-lg px-4 me-md-2">
+            <Link to="bankApp/deposit" className="btn btn-over btn-lg px-4 me-md-2">
               Deposit
             </Link>
-            <Link to="/withdraw" className="btn btn-over btn-outline-secondary btn-lg px-4">
+            <Link to="bankApp/withdraw" className="btn btn-over btn-outline-secondary btn-lg px-4">
               Withdraw
             </Link>
-            <Link to="/home/key/records" className="btn btn-over btn-outline-secondary btn-lg px-4">
+            <Link to="bankApp/home/key/records" className="btn btn-over btn-outline-secondary btn-lg px-4">
               Record
             </Link>
           </div>
