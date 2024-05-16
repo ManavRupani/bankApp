@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15e4b46b.css",
+    "main.js": "/static/js/main.0e3951af.js",
+    "static/media/td-bank-logo-vector.svg": "/static/media/td-bank-logo-vector.f26f4908e09603a0c301743e397d477a.svg",
+    "index.html": "/index.html",
+    "main.15e4b46b.css.map": "/static/css/main.15e4b46b.css.map",
+    "main.0e3951af.js.map": "/static/js/main.0e3951af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15e4b46b.css",
+    "static/js/main.0e3951af.js"
+  ]
+}
