@@ -36,7 +36,7 @@ const App = () => {
         <div className="container mt-4">
           <Routes>
             <Route
-              path="/"
+              path="/bankApp"
               element={
                 <HomePage
                  
