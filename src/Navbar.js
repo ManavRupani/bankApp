@@ -6,7 +6,7 @@ const Navbar = ({ balance }) => {
   return (
     <nav className="navbar navbar-expand-lg custom">
       <div className="container text-info">
-        <Link className="navbar-brand " to="/">
+        <Link className="navbar-brand " to="/bankApp">
           <img src={Logo} alt="logo"  height="50" className="d-inline-block align-top" />
         </Link>
         {/* <div className="navbar-text ml-auto text-white">
